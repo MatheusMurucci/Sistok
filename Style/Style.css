@@ -3,3 +3,55 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+header{
+   width: 100vw;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+      
+}
+
+
+
+.tittle{
+margin: 10px 15px 10px 10px;
+}
+
+.options{
+    width: 455px;
+    height: 19px;
+    display: inline-flex;
+    justify-content: space-between;
+    margin-top: px;
+}
+
+header a{
+    color: #4c5d73;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.cadastre-se a{
+    color: #304f8c;
+    
+}
+
+.cadastre-se{
+    margin: 0 0 0 10px;
+}
+
+#entrar{
+    width: 150px;
+    height: 44px;
+    color: #304f8c;
+    background: white;
+    border-color: #304f8c;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    border: solid 1px;
+    margin: 5px 0 0 10px;
+   
+}
