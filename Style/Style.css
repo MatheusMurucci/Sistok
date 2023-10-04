@@ -1,22 +1,26 @@
+ @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700;800&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Rubik;
 }
 
 header{
    width: 100vw;
+   height: 108px;
     display: inline-flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px;
+   
       
 }
 
 
 
 .tittle{
-margin: 10px 15px 10px 10px;
+margin: 10px 134px 10px 72px;
 }
 
 .options{
@@ -24,7 +28,18 @@ margin: 10px 15px 10px 10px;
     height: 19px;
     display: inline-flex;
     justify-content: space-between;
-    margin-top: px;
+    
+}
+
+.a_options{
+   width: 64px;
+   height: 19px;
+   margin-right: 50px; 
+}
+
+#sobre_nos{
+    width: 75px;
+    height: 19px;
 }
 
 header a{
@@ -35,12 +50,14 @@ header a{
 
 .cadastre-se a{
     color: #304f8c;
+    margin-right: 24px;
     
 }
 
 .cadastre-se{
     margin: 0 0 0 10px;
 }
+
 
 #entrar{
     width: 150px;
@@ -52,30 +69,142 @@ header a{
     font-size: 16px;
     cursor: pointer;
     border: solid 1px;
-    margin: 5px 0 0 10px;
+    margin: 5px 72px 0 10px;
    
 }
 
 .hero{
-    border: solid;
-    width: 1136px;
+    width: 1136px;  
+    margin-bottom: 88px;
     
 }
 
-.hero_bottom{
+.hero_top{
+    margin-top: 50px;
+    margin-left: 72px;
+}
+
+.hero_top p{
+    width: 527px;
+    height: 48px;
+    font-size: 16px;
+    color: #4c5d73;
+}
+
+.hero_top h1{
+    width: 532px;
+    height: 112px;
+    font-size: 40px;
+}
+
+#quero_conhecer{
     border: solid;
+    background: #304f8c;
+    color: #ffffff;
+    width: 250px;
+    height: 60px;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 22px;   
+}
+
+.hero_imagem{
+    width: 432px;
+    height: 349px;
+    margin-right: 72px;
+    margin-top: 30px;
+}
+
+.hero_init{
+    width: 100vw;
     display: inline-flex;
-    width: 1136px;
+    justify-content: space-between;
+}
+
+.hero_bottom{
+    width: 100vw;
     height: 124px;
+    display: inline-flex;
     justify-content: space-evenly;
     align-items: center;
-   
-
+    margin-top: 48px;
 }
 
 .hero_options{
-    border: solid 1px;
-   width: 164px;
-
+    width: 164px;
+    display: inline-flex;
 }
+
+.options_text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 9px;
+    font-size: 17px;
+}
+
+.options_text p{
+    font-size: 14px;
+    color: #4C5D73;
+}
+
+#em_cloud{
+    padding-right: 30px;
+}
+
+#focado{
+    width: 190px;
+    height: 59px;
+}
+
+#focado_em{
+    padding-right: 30px;
+}
+
+#costumer_success{
+    width: 122px;
+    height: 30px;
+}
+
+#seg{
+   width: 180px;
+   height: 59px; 
+}
+
+#seguranca{
+   padding-right: 20px; 
+}
+
+#para_seu_negocio{
+    width: 112px;
+    height: 30px;
+}
+
+
+.servicos{
+    width: 100vw;
+    height: 424px;
+}
+
+.servicos_bottom{
+    border: solid;
+    display: inline-flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100vw;
+    height: 208px;
+}
+
+.servico_options{
+    border: solid 1px;
+    
+}
+
+
+
+
+
+
 

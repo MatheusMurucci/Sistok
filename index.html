@@ -20,11 +20,11 @@
 
             <div class="options">
 
-                <a href="#">Sobre nós</a>
-                <a href="#">Serviços</a>
-                <a href="#">Atuação</a>
-                <a href="#">Planos</a>
-                <a href="#">Ajuda</a>
+                <a href="#" class="a_options" id="sobre_nos">Sobre nós</a>
+                <a href="#" class="a_options">Serviços</a>
+                <a href="#" class="a_options">Atuação</a>
+                <a href="#" class="a_options">Planos</a>
+                <a href="#" class="a_options">Ajuda</a>
 
             </div>
 
@@ -37,46 +37,61 @@
 
         <div class="hero">
 
-            <div class="hero_top">
-                <h1>Organize seu negócio com <br> o sistema Sistok</h1>
-                <p>O software ideal para pequenos e médios negócios.Tenha todos os <br> controles do seu negócio em um
-                    único
-                    lugar.</p>
-                <button id="quero_conhecer">Quero Conhecer</button>
+            <div class="hero_init">
+                <div class="hero_top">
+                    <h1>Organize seu negócio com <br> o sistema Sistok</h1>
+                    <p>O software ideal para pequenos e médios negócios. Tenha todos os <br> controles do seu negócio em
+                        um
+                        único
+                        lugar.</p>
+                    <button id="quero_conhecer">Quero Conhecer</button>
+                </div>
+
+                <div class="hero_imagem">
+                    <img src="Assets/OBJECTS.svg">
+                </div>
+
             </div>
 
-            <div class="hero_imagem">
-                <img src="Assets/OBJECTS.svg">
-            </div>
 
             <div class="hero_bottom">
                 <div class="hero_options" id="solucao">
                     <img src="Assets/Computer.img.svg">
-                    <h4>Solução</h4>
-                    <p>100% SaaS</p>
+                    <div class="options_text">
+                        <h4>Solução</h4>
+                        <p>100% SaaS</p>
+                    </div>
                 </div>
 
                 <div class="hero_options" id="plataforma">
                     <img src="Assets/Cloud.img.svg">
-                    <h4>Plataforma</h4>
-                    <p>em Cloud</p>
+                    <div class="options_text">
+                        <h4>Plataforma</h4>
+                        <p id="em_cloud">em Cloud</p>
+                    </div>
                 </div>
 
                 <div class="hero_options" id="focado_em">
                     <img src="Assets/Star.img.svg">
-                    <h4>Focado em</h4>
-                    <p>Costumer Success</p>
+                    <div id="focado" class="options_text">
+                        <h4 id="focado_em">Focado em</h4>
+                        <p id="costumer_success">Costumer Success</p>
+                    </div>
                 </div>
 
                 <div class="hero_options" id="seguranca">
                     <img src="Assets/Shield.img.svg">
-                    <h4>Segurança</h4>
-                    <p>para seu negóvio</p>
+                    <div id="seg" class="options_text">
+                        <h4 id="seguranca">Segurança</h4>
+                        <p id="para_seu_negocio">para seu negóvio</p>
+                    </div>
                 </div>
+
 
             </div>
 
         </div>
+
 
         <div class="servicos">
 
@@ -85,31 +100,32 @@
                 <h2>O sistema de gestão Sistok é completo para atender <br>diversos segmentos do mercado empresarial
                 </h2>
             </div>
-            <br>
-            <br>
 
-            <div class="servico_options">
-                <img src="Assets/Graphic.img.svg">
-                <h4>Controle de vendas</h4>
-                <p>Controle suas vendas e fluxo de <br> caixa de forma fácil e eficiente.</p>
-            </div>
 
-            <div class="servico_options">
-                <img src="Assets/Boxes.img.svg">
-                <h4>Controle de estoque</h4>
-                <p>Controle seu estoque on-line, de <br> maneira fácil e automatizada.</p>
-            </div>
+            <div class="servicos_bottom">
+                <div class="servico_options">
+                    <img src="Assets/Graphic.img.svg">
+                    <h4>Controle de vendas</h4>
+                    <p>Controle suas vendas e fluxo de <br> caixa de forma fácil e eficiente.</p>
+                </div>
 
-            <div class="servico_options">
-                <img src="Assets/Person.img.svg">
-                <h4>Gestão de Clientes</h4>
-                <p>Gerencie sua carteira de <br> clientes e facilite seu trabalho.</p>
-            </div>
+                <div class="servico_options">
+                    <img src="Assets/Boxes.img.svg">
+                    <h4>Controle de estoque</h4>
+                    <p>Controle seu estoque on-line, de <br> maneira fácil e automatizada.</p>
+                </div>
 
-            <div class="servico_options">
-                <img src="Assets/Truck.img.svg">
-                <h4>Gestão de fornecedores</h4>
-                <p>Gerencie seus fornecedores <br> facilmente on-line.</p>
+                <div class="servico_options">
+                    <img src="Assets/Person.img.svg">
+                    <h4>Gestão de Clientes</h4>
+                    <p>Gerencie sua carteira de <br> clientes e facilite seu trabalho.</p>
+                </div>
+
+                <div class="servico_options">
+                    <img src="Assets/Truck.img.svg">
+                    <h4>Gestão de fornecedores</h4>
+                    <p>Gerencie seus fornecedores <br> facilmente on-line.</p>
+                </div>
             </div>
 
 
@@ -127,7 +143,8 @@
                 <p>O sistema de gestão Sistok é um serviço da empresa Tec Code, focada em soluçoes de <br> sistemas
                     on-line e desktops para pequenas e médias empresas.</p>
 
-                <p>Fundada em 2019, procuramos sempre melhorar a experiência do cliente com nossos <br> serviços. Nosso
+                <p>Fundada em 2019, procuramos sempre melhorar a experiência do cliente com nossos <br> serviços.
+                    Nosso
                     time é super qualificado e o melhor, ama o que faz.</p>
 
                 <p>Vem com a gente transformar seu negócio</p>
