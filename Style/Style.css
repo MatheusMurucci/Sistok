@@ -7,16 +7,18 @@
     font-family: Rubik;
 }
 
+main{
+   
+}
+
+
 header{
    width: 100vw;
    height: 108px;
     display: inline-flex;
     align-items: center;
-    justify-content: space-between;
-   
-      
+    justify-content: space-between;  
 }
-
 
 
 .tittle{
@@ -73,6 +75,8 @@ header a{
    
 }
 
+
+
 .hero{
     width: 1136px;  
     margin-bottom: 88px;
@@ -106,7 +110,8 @@ header a{
     border-radius: 10px;
     font-size: 16px;
     cursor: pointer;
-    margin-top: 22px;   
+    margin-top: 22px;  
+    border: none; 
 }
 
 .hero_imagem{
@@ -183,13 +188,33 @@ header a{
 }
 
 
+
 .servicos{
     width: 100vw;
     height: 424px;
 }
+.servicos_top{
+    margin-bottom: 48px;
+    margin-left: 72px;
+}
+
+.servicos_top p{
+   
+    width: 88px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    color: #4C5D73;
+}
+
+.servicos_top h2{
+    width: 826px;
+    height: 80px;
+    font-size: 32px;
+}
 
 .servicos_bottom{
-    border: solid;
     display: inline-flex;
     justify-content: space-evenly;
     align-items: center;
@@ -198,8 +223,66 @@ header a{
 }
 
 .servico_options{
-    border: solid 1px;
-    
+    width: 268px;
+    height: 208px;
+    padding-left: 24px;
+    padding-top: 20px;
+}
+
+.servico_options img{
+    padding-bottom: 23px;
+}
+
+.servico_options p{
+    color: #4C5D73;
+}
+
+#controle_de_vendas h4{
+    width: 163px;
+    height: 30px;
+    font-size: 17px;
+}
+
+#controle_de_vendas p{
+    width: 209px;
+    height: 36px;
+    font-size: 14px;
+}
+
+#controle_de_estoque h4{
+    width: 172px;
+    height: 30px;
+    font-size: 17px;
+}
+
+#controle_de_estoque p{
+    width: 213px;
+    height: 36px;
+    font-size: 14px;
+}
+
+#gestao_de_clientes h4{
+    width: 159px;
+    height: 30px;
+    font-size: 17px;
+}
+
+#gestao_de_clientes p{
+    width: 209px;
+    height: 36px;
+    font-size: 14px; 
+}
+
+#gestao_de_fornecedores h4{
+    width: 203px;
+    height: 30px;
+    font-size: 17px;
+}
+
+#gestao_de_fornecedores p{
+    width: 220px;
+    height: 36px;
+    font-size: 14px;
 }
 
 
