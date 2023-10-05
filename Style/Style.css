@@ -7,9 +7,7 @@
     font-family: Rubik;
 }
 
-main{
-   
-}
+
 
 
 header{
@@ -212,6 +210,7 @@ header a{
     width: 826px;
     height: 80px;
     font-size: 32px;
+    font-weight: 500px;
 }
 
 .servicos_bottom{
@@ -287,7 +286,148 @@ header a{
 
 
 
+.sobre_nos{
+    width: 100vw;
+    height: 777.27px;
+}
+
+.left-right{
+    width: 100vw;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sobre_nos_left{
+    width: 700.12px;
+    height: 751.27px;
+}
+
+.sobre_nos_left p{
+    width: 101px;
+    height: 56px;
+    font-size: 16px;
+    margin-left: 72px;
+    color: #4C5D73;
+}
+
+.sobre_nos_left h2{
+    width: 609px;
+    height: 40px;
+    font-size: 32px;
+    font-weight: 500;
+    margin-left: 72px;
+}
+
+.sobre_nos_left img{
+    width: 523.89px;
+    height: 604.38px;
+    margin-left: 36.66px;
+}
+
+.sobre_nos_right{
+    width: 676px;
+    height: 278px;
+    margin-right: 47px;
+}
+
+#sobre_p1{
+   width: 676px;
+   height: 48px; 
+   font-size: 16px;
+   margin-bottom: 32px;
+
+}#sobre_p2{
+    width: 676px;
+    height: 48px;
+    font-size: 16px;
+    margin-bottom: 32px;
+}
+
+.p3{
+    display: inline-flex;
+    align-items: center;
+    width: 676px;
+    height: 24px;
+    font-size: 16px;
+    margin-bottom: 40px;
+    
+}
+
+.p3 img{
+    width: 18px;
+    height: 18px;
+    margin-left: 9px;
+}
+
+#nossos_cases{
+    width: 214px;
+    height: 48px;
+    font-size: 15px;
+    font-weight: bold;
+    background: #ffffff;
+    border-color: #304F8C ;
+    border-radius: 8px;
+    color: #304F8C;
+    border: solid 1px;
+    cursor: pointer;
+}
 
 
 
+.atuacao{
+    width: 100vw;
+    height: 424px;
+}
+
+.atuacao_top p{
+    width: 82px;
+    height: 56px;
+    font-size: 16px;
+    color: #4C5D73;
+    margin-left: 72px;
+}
+
+.atuacao_top h2{
+    width: 858px;
+    height: 80px;
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 48px;
+    margin-left: 72px;
+}
+
+.atuacao_bottom{
+    display: inline-flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100vw;
+    height: 208px;
+}
+
+.atuacao_options{
+    width: 268px;
+    height: 208px;
+    padding-top: 26px;
+}
+
+.atuacao_options img{
+    padding-left: 81px;
+}
+
+#bares{
+    padding-left: 109px;
+}
+
+#restaurantes{
+    padding-left: 76px;
+}
+
+#mercearias{
+    padding-left: 87px;
+}
+
+#adegas{
+    padding-left: 102px;
+}
 
