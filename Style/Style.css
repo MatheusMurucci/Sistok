@@ -431,3 +431,176 @@ header a{
     padding-left: 102px;
 }
 
+
+
+.planos{
+    width: 100vw;
+    height: 454px;
+}
+
+.planos button{
+    border: solid 1px;
+    width: 220px;
+    height: 48px;
+    border-radius: 8px;
+    background-color: #ffffff;
+    color: #304f8c;
+    margin-left: 24px;
+    font-weight: bold;
+}
+
+.planos_top p{
+    width: 70px;
+    height: 56px;
+    font-size: 16px;
+    color: #4c5d73;
+    margin-left: 72px;
+}
+
+.planos_top h2{
+    width: 858px;
+    height: 40px;
+    font-size: 32px;
+    font-weight: 500;
+    margin-left: 72px;
+}
+
+.planos_bottom{
+    display: inline-flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100vw;
+    height: 288px;
+    margin-top: 48px;
+    margin-left: 30px;
+    margin-bottom: 43.2px;
+}
+
+.planos_options{
+    width: 268px;
+    height: 288px;
+}
+
+#iniciante h4{
+    width: 69px;
+    height: 30px;
+    font-size: 17px;
+    font-weight: 400;
+    color: #111826;
+    margin-left: 24px;
+}
+
+#iniciante img{
+    margin-left: 24px;
+}
+
+#iniciante p{
+    width: 209px;
+    height: 60px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #4c5d73;
+    margin-top: 24px;
+    margin-left: 24px;
+}
+
+#iniciante button{
+    margin-top: 24px;
+}
+
+#basico h4{
+    width: 53px;
+    height: 30px;
+    font-size: 17px;
+    font-weight: 400;
+    color: #111826;
+    margin-left: 24px;
+}
+
+#basico img{
+    margin-left: 24px;
+}
+
+#basico p{
+    width: 209px;
+    height: 40px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #4C5D73;
+    margin-top: 24px;
+    margin-left: 24px;
+}
+
+#basico button{
+    margin-top: 44px;
+}
+
+#popular{
+    background-color: #304F8C;
+    border: solid 1px;
+    border-radius: 10px;
+}
+
+#essencial{
+    width: 75px;
+    height: 30px;
+    font-size: 17px;
+    font-weight: 400;
+    color: #ffffff;
+    margin-left: 24px;
+}
+
+#popular img{
+    margin-left: 24px;
+}
+
+#popular p{
+    width: 209px;
+    height: 40px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #ffffff;
+    margin-top: 24px;
+    margin-left: 24px;
+}
+
+#popular button{
+    margin-top: 44px;
+}
+
+#grande h4{
+    width: 58px;
+    height: 30px;
+    font-size: 17px;
+    font-weight: 400;
+    margin-left: 24px;
+}
+
+#grande img{
+    margin-left: 24px;
+}
+
+#grande p{
+    width: 209px;
+    height: 20px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #4C5D73;
+    margin-top: 24px; 
+    margin-left: 24px
+}
+
+#grande button{
+    margin-top: 64px;
+}
+
+#planos_img{
+    width: 770px;
+    height: 425.8px;
+    margin-left: 255px;
+}
+
+#planos_img img{
+    width: 770px;
+    height: 392px;
+}
