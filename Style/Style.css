@@ -9,6 +9,13 @@
 
 
 
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+
 
 header{
    width: 100vw;
@@ -447,6 +454,7 @@ header a{
     color: #304f8c;
     margin-left: 24px;
     font-weight: bold;
+    cursor: pointer;
 }
 
 .planos_top p{
@@ -603,4 +611,58 @@ header a{
 #planos_img img{
     width: 770px;
     height: 392px;
+}
+
+.container{
+    border-bottom: solid blue;
+    display: flex;
+    width: 100vw;
+    height: 370px;
+    background-color: #111826;
+}
+
+.container ul{
+    width: 20%;
+    color: white;
+}
+
+.container li{
+    list-style: none;
+    color: white;
+    margin: 25px 0;
+}
+
+.container a{
+    color: white;
+    text-decoration: none;
+}
+
+#recursos{
+    width: 97px;
+    height: 226px;
+    margin: 54px 74px 77px 72px;
+}
+
+#recursos h4{
+    width: 85px;
+    height: 40px;
+    font-size: 18px;
+}
+
+#e-commerce{
+    width: 97px;
+    height: 40px;
+    font-size: 16px;  
+}
+
+#comercio{
+    width: 71px;
+    height: 40px;
+    font-size: 16px;
+    padding-top: 34px; 
+}
+
+.textfield img{
+    border: solid;
+    background-color: black;
 }
