@@ -27,6 +27,10 @@ Durante o desenvolvimento deste projeto, enfrentamos e superamos os seguintes de
 
 Você pode conferir o design da interface no [link do Figma](https://www.figma.com/community/file/979892246159607749) para ter uma visão detalhada de como o projeto se parece.
 
+## Preview
+
+![image](https://github.com/MatheusMurucci/Sistok/assets/138989714/ecb01b39-e88a-48ca-8103-e0cad52245e4)
+
 ## Deploy
 
 O projeto está disponível em [Sistok no Vercel](https://sistok-murex.vercel.app/) para visualização.
